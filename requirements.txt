@@ -1,4 +1,2 @@
 Django
 geopy
-pysqlite3-binary
-pysqlite3
