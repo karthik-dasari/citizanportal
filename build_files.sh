@@ -1,2 +1,4 @@
+sudo apt-get install libsqlite3-dev
+
 pip install -r requirements.txt
 python manage.py collectstatic
