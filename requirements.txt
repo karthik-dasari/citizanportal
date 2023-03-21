@@ -1,4 +1,4 @@
 Django == 4.1.4
 geopy
-libsqlite3-dev
+libsqlite3
 pysqlite3
