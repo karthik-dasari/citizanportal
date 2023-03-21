@@ -26,4 +26,4 @@ urlpatterns = [
     path('violation/',include(('violation.urls','violation'),namespace='violation')),
     path('accident/',include(('accident.urls','accident'),namespace='accident')),
     path('issue/',include(('issue.urls','issue'),namespace='issue')),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
