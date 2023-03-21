@@ -2,7 +2,7 @@
     "builds": [{
         "src": "CitizenSafety/wsgi.py",
         "use": "@ardnt/vercel-python-wsgi",
-        "config": { "maxLambdaSize": "64mb" }
+        "config": { "maxLambdaSize": "64mb" , "runtime": "python3.9"}
     }],
     "routes": [
         {
